@@ -1,0 +1,118 @@
+:root{
+
+
+
+
+/* font size */
+--fs-very-small: 16px;
+--fs-small: 22px;
+--fs-medium: 18px;
+--fs-large: 22px;
+--fs-extra-large: 36px;
+
+
+
+ /* line height
+139%
+148% */
+
+/* colors */
+--color-black:#000000;
+--color-white:#FFFFFF;
+--color-light-gray:#FAF9FD;
+--color-mid-gray:#E9E6F5;
+--color-gray:#2E2E2E;
+--color-purple:#8661C5;
+--color-light-purple:#D59DFF;
+--color-dark-purple:#3B2E58;
+--color-blue:#0067B8;
+
+
+}
+
+/* font-families */
+@font-face {
+    font-family: "Segoe UI";
+    src: url("assets/fonts/Segoe UI.ttf");
+} 
+
+.ff-Segoe{
+    font-family: "Segoe UI";
+}
+
+/* font-sizes */
+
+.fs-small{
+    font-size: var(--fs-small);
+}
+.fs-very-small{
+    font-size: var(--fs-very-small);
+}
+.fs-medium{
+    font-size: var(--fs-medium);
+}
+.fs-large{
+    font-size: var(--fs-large);
+}
+.fs-extra-large{
+    font-size: var(--fs-extra-large);
+}
+
+
+/* colors */
+
+.color-white{
+    color: var(--color-white);
+}
+.color-black{
+    color: var(--color-black);
+}
+.color-light-gray{
+    color: var(--color-light-gray);
+}
+.color-mid-gray{
+    color: var(--color-mid-gray);
+}
+.color-gray{
+    color: var(--color-gray);
+}
+.color-purple{
+    color: var(--color-purple);
+}
+.color-light-purple{
+    color: var(--color-light-purple);
+}
+.color-dark-purple{
+    color: var(--color-dark-purple);
+}
+.color-blue{
+    color: var(--color-blue);
+}
+.background-light-gray{
+    background-color: var(--color-light-gray);
+}
+.background-mid-gray{
+    background-color: var(--color-mid-gray);
+}
+.background-white{
+    background-color: var(--color-white);
+}
+.background-light-purple{
+    background-color: var(--color-light-purple);
+}
+@media(min-width:576px){
+:root{
+    --fs-very-small: 18px;
+}
+}
+@media(min-width:768px){
+    :root{
+        --fs-extra-large: 76px;
+    }
+}
+@media(min-width:1300px){
+    :root{
+        --fs-medium: 23px;
+        --fs-large: 35px;
+    }
+}
